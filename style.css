@@ -1,0 +1,280 @@
+/* Font Family Imports */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:900&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Global Tags */
+
+body {
+    background-image: url(images/8bitBG40b.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: rgb(16, 16, 16);
+}
+
+/* Issue Gallery Content CSS */
+
+.gallerywrapper {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    margin: auto;
+}
+
+.galleryrow {
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.issueframe {
+    margin: 30px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    text-align: right;
+}
+
+.issuetitle {
+    text-align: left;
+    font-family: "Open Sans";
+    font-size: 30px;
+    letter-spacing: -1px;
+}
+
+.issuetext {
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: "Lato";
+}
+
+.issuelink {
+    width: 200px;
+    font-family: "Open Sans";
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #717171;
+}
+
+/* Checklists Content CSS */
+
+.chklstwrapper {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    margin: auto;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.chklstheader {
+    margin: 30px 0px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    text-align: left;
+}
+
+.chklsttitle {
+    font-family: "Roboto";
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: -2px;
+}
+
+.chklstbody {
+    padding-bottom: 10px;
+    font-size: 22px;
+    font-family: "Lato";
+}
+
+.scrolldownbtn {
+    width: 150px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #717171;
+    margin-bottom: 30px;
+}
+
+.scrolldownbtn:hover {
+    -webkit-box-shadow: inset 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: inset 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: inset 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+.chklstitem {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+.chklstitemtitle {
+    font-family: "Roboto";
+    font-size: 28px;
+}
+
+.chklstcount {
+    font-family: "Roboto";
+    font-size: 20px;
+    color: #717171;
+}
+
+.chklstbtn {
+    align-items: center;
+    background-image: url(images/arrow.svg);
+    background-position: center;
+    height: 60px;
+    width: 30px;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.chklstbtn:hover {
+    background-image: url(images/arrowb.svg);
+}
+
+.seclistitem {
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+.chklistitem {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.chklsttext {
+    margin-left: 40px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    font-family: "Lato";
+}
+
+.leftalign{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.howbtn {
+    width: 200px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #717171;
+    margin-bottom: 30px;
+}
+
+.howbtn:hover {
+    -webkit-box-shadow: inset 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: inset 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: inset 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+/* Planning Testing Page Content CSS */
+
+.testplanpos {
+    display: flex;
+    width: 80%;
+    margin-top: 20px;
+    margin: auto;
+    flex-direction: column;
+    max-width: 700px;
+}
+
+.testplanwrap {
+    margin: 30px 0px;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    text-align: left;
+}
+
+.testplantitle {
+    font-family: "Roboto";
+    margin-bottom: 10px;
+    font-weight: 900;
+    font-size: 60px;
+    letter-spacing: -2px;
+}
+
+.testplanbody {
+    font-size: 22px;
+    font-family: "Lato";
+}
+
+.testplanstep {
+    margin-top: 30px;
+    font-family: "Open Sans";
+    font-size: 28px;
+}
+
+.testplantext {
+    font-size: 18px;
+    font-family: "Lato";
+}
+
+.backbtn {
+    width: 100px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: #717171;
+    margin-bottom: 30px;
+}
+
+.backbtn:hover {
+    -webkit-box-shadow: inset 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: inset 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    box-shadow: inset 3px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
